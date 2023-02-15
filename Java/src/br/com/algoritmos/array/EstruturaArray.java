@@ -23,6 +23,32 @@ public class EstruturaArray {
 	}
 	}
 
+	
+	
+	//Getting a value by index. 
+	public int recebeIndexLista(int index) {
+		
+		if(index < listaSize) return aLista[index]; 
+			
+		return 0;
+	}
+	
+	
+	public boolean contemEsseValor(int valorPesquisado) {
+		
+	boolean valorNaLista = false; 
+	
+	for(int i = 0; i < listaSize; i++) {
+		if(aLista[i] == valorPesquisado) { 
+			valorNaLista = true;
+		}
+	}
+		
+	return valorNaLista;
+	
+	}
+	
+	
 
 	public void printArray() {
 		
@@ -44,6 +70,10 @@ public class EstruturaArray {
 	newArray.geraArrayAleatorio();
 	
 	newArray.printArray();
-} 
+	
+	System.out.println(newArray.recebeIndexLista(3));
+
+	System.out.println(newArray.contemEsseValor(15));
+	} 
 
 } 

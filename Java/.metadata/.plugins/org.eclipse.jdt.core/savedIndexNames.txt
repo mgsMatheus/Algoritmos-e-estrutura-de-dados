@@ -1,4 +1,1 @@
-INDEX VERSION 1.131+C:\Users\mathe\Desktop\Java Algoritmos Treinos\.metadata\.plugins\org.eclipse.jdt.core
-3621692672.index
-1865797976.index
-674231343.index
+INDEX VERSION 1.131+C:\Users\mathe\Desktop\Algoritmos e estrutura de dados\Java\.metadata\.plugins\org.eclipse.jdt.core
